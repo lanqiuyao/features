@@ -1,6 +1,6 @@
 # Features
 
-In the first stage, we focus on the trade price change of stocks ( $k$ th $\in \{1,2,.., K\}$) during a time period, $t_i$, $i \in {1,2,..., n}$.  Let's denote the price for the $k$th stock at time $t$ as $X(t)$. 
+In the first stage, we focus on the trade price change of stocks ( $k$ th $\in \{1,2,.., K\}$) during a time period, $t_i$, $i \in {1,2,..., n}$.  Let's denote the price for the $k$ th stock at time $t$ as $X(t)$. 
 
 We hope to find features to represent the information on price change in the time period. 
 
@@ -22,7 +22,7 @@ We could just set a sample scare value to represent the feature:
 * High price $\max(X(t))$
 * Low price $\min(X(t))$
 
-Those features only utilize one of the $n$ points and will lose information. 
+Those features only utilize one of the $n$ points and will lose information. (those can be the baseline features. the new features should have higher correlation with the target than those baseline)
 
 We could also consider the price change rate to incorporate the price range difference: 
 
