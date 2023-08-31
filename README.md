@@ -49,11 +49,22 @@ Functional PCA
 
 ### Wavelet analysis 
 
-count change frequence
+count change frequency
 
 ### Smooth consideration 
 
 Gaussian kernel 
+
+
+
+
+# Exploration 
+
+1. run the sample statistics to get the boundary of correlations
+2. run slope method
+3. run return, weighted return
+4. wavelet analysis
+5. time series kmeans, functional pca
 
 
 
