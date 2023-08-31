@@ -47,6 +47,10 @@ $$\frac{\hat \beta_1}{X(t_n) - \hat \beta_0} \times R^2$$
 
 Functional PCA
 
+### Wavelet analysis 
+
+count change frequence
+
 ### Smooth consideration 
 
 Gaussian kernel 
